@@ -1,0 +1,724 @@
+
+HTML { width:100%;min-width: 100%;min-height: 100%;}
+body
+{
+	width:100%;
+	min-width: 100%;
+	min-height: 100%;
+	font-family:Tahoma,segoe ui, Arial;
+	padding: 0px;
+	margin: 0px;
+		background-color:#e7f1fe;
+	background: #e7f1fe; /* Old browsers */
+
+		
+			background: -moz-linear-gradient(top, #feffff 0%, #feffff 0%, #d4e5fe 96%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feffff), color-stop(0%,#feffff), color-stop(96%,#d4e5fe)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top, #feffff 0%,#feffff 0%,#d4e5fe 96%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top, #feffff 0%,#feffff 0%,#d4e5fe 96%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top, #feffff 0%,#feffff 0%,#d4e5fe 96%); /* IE10+ */
+			background: linear-gradient(top, #feffff 0%,#feffff 0%,#d4e5fe 96%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#d4e5fe',GradientType=0 ); /* IE6-8 */
+		}
+
+input[type=text], input[type=password]
+{
+	border: solid 1px #7E9DB9;
+}
+
+select
+{
+	border: solid 1px #7E9DB9;
+}
+
+input[type="button"]:disabled,input[type="submit"]:disabled {
+color:#949eb2;
+}
+
+#loginContainerTable
+{
+	table-layout:fixed;
+}
+
+tr.inputFieldsContainer
+{
+	height:214px;
+	padding:0;
+}
+	
+td.inputFieldsContainer
+{
+	vertical-align:top;
+}
+
+#loginPageHeader
+{
+	padding-bottom:5px;
+}
+
+#loginContainer
+{
+	position:relative;s
+	height:100%;
+	margin-top: 27px;
+	margin-right: 15px;
+	height: 317px;
+	width: 493px;
+}
+
+
+#LoginLeft
+{
+	padding:0;
+	float:left;
+	display:block; 
+	padding-top:10px
+}
+
+#LoginRight
+{
+	float:right;
+	width:180px;
+}
+
+#LoginBottom
+{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width: 100%;
+	height: 25px;
+}
+
+.ErrorMsgInput, .ErrorMsgInputNoRealms, .ErrorMsgLegacy, .ErrorMsgLegacyNoRealms, .ErrorMsgNoInput, .ErrorMsgNoInputNoRealms
+{
+	position: absolute;
+}
+
+.ErrorMsgInput
+{
+	top: 100;
+}
+
+.ErrorMsgInputNoRealms
+{
+	top: 64;
+}
+
+.ErrorMsgNoInput
+{
+	top: 66;
+}
+
+.ErrorMsgNoInputNoRealms
+{
+	top: 30;
+}
+
+.ErrorMsgLegacy
+{
+	top: 102;
+}
+
+.ErrorMsgLegacyNoRealms
+{
+	top: 66;
+}
+
+#Languages
+{
+	position:absolute;
+	top: 0;
+	right: 0;
+}
+
+#loginForm
+{
+	margin:0px;
+	padding:0px
+}
+
+#inputFieldsTable
+{
+	padding-top: 10px;
+}
+
+#loginPagePromptCell
+{
+	padding-bottom: 10px;
+}
+
+#SWScheckBox
+{
+	padding-top: 8px;
+}
+
+#LoginButtonTD
+{
+	padding: 0;
+	margin: 0;
+}
+
+#LoginButton
+{
+    font-size: 13px;
+    min-width: 80px;
+	height: 25px;
+	letter-spacing: 0.5px;
+}
+
+#submitDiv
+{
+	padding-top:12px;
+}
+
+#certificateRadioDiv
+{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#userName, #passwordDisplayed
+{
+	height:23px;
+}
+
+.loginForm, .inputFieldsTable, #loginContainerTable
+{
+	width:300px;
+}
+
+.textBox
+{
+	float: left; 
+	overflow: visible;
+	word-wrap: break-word;
+}
+
+.loginInputDisabled, .loginInput
+{
+	color: black;
+	font-size: 12px;
+}
+
+.loginInputDisabled
+{
+	background-color: #D4D0C8;
+}
+
+
+.inputLabel, .inputLabelDisabled, .inputLabelLeftMargin
+{
+	font-size: 11px;
+	font-weight: normal;
+	padding-right:3px;
+	padding-bottom:2px;
+}
+
+.inputLabelLeftMargin
+{
+	padding-left:25px;
+}
+
+.inputLabelDisabled
+{
+	color: gray;
+}
+
+td.loginInput, td.loginInputDisabled, .loginInputLeftMargin
+{
+	padding:0;
+	padding-bottom:7px;
+	vertical-align:top;
+}
+
+.loginInputLeftMargin
+{
+	padding-left:25px;
+}
+
+input.loginInput, input.loginInputDisabled, select.loginInput
+{
+	width: 100%;
+	border: solid 1px #7E9DB9;
+}
+
+.loginOptionsHidden
+{
+	display: none;
+}
+.productName
+{
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;	
+	padding-top:20px;
+}
+
+.productName2
+{
+    font-size: 18px;
+    font-weight: bold;
+	color: #2F3E85;
+	text-align: left;
+	padding-left: 20px;
+ 	vertical-align: bottom;
+}
+
+.signInTitle
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.signInType
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.signInTypeDis
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: gray;
+}
+
+.welcomeUser
+{
+	font-size: 12px;
+	font-weight: normal;
+	color: #777777;	
+}
+
+.secTitle
+{
+	font-size: 11px;
+	font-weight: normal;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.secTitleB
+{
+	font-size: 11px;
+	font-weight: bold;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.secTitleNormalCursor
+{
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.secTitleBold
+{
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.secTitleDis
+{
+	font-size: 11px;
+	color: gray;
+}
+
+.signoutCPCaption
+{
+	font-family: sans-serif, Arial;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.go
+{
+	height: 18px;
+	width: 100%;
+	color: white;
+	font-size: 11px;
+	letter-spacing : 1px;
+	font-weight: normal;
+	background-color: #202082;
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-bottom: 1px solid #808080;
+	border-right: 1px solid #808080;
+}
+
+.butt
+{
+	height: 22px;
+	color: #ffffff;
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing : 1px;
+	background-color: #486092;
+	padding-top : 2px;
+	padding-bottom : 2px;
+	padding-left : 6px;
+	padding-right : 6px;
+	border: 1px solid #929292;
+	border-style : groove;
+	border-collapse : separate;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.footerTable
+{
+	background: url(/sslvpn/Login/images/Footer_bg.png);
+	background-repeat: repeat-x;
+	background-position: center;
+}
+
+.Copyright
+{
+	color: #000000;
+	font-family: sans-serif, Arial;
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.Message
+{
+	color: #1C2A6F;
+	font-size: 12px;
+	font-weight: normal;
+	line-height : 18px;
+}
+
+.MarkedMessage
+{
+	color: Purple;
+	font-size: 12px;
+	font-weight: bold;
+	line-height : 18px;
+}
+
+.errorMessage
+{
+	font-family: sans-serif, Arial;
+	color: #CC0000;
+	font-size: 12px;
+}
+
+.blueLine
+{
+	border-top: 2px solid #202082;
+}
+
+.Alert
+{
+	FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana;
+}
+
+.ics_error_message_box 
+{
+	border:solid 2px #FF796B;
+	background:#FFFFFF;
+	font-weight: bold;
+	font-size: 12px;
+	color:#AA2848;
+	width: 100%;
+	padding: 10px;
+	display:none;
+}
+
+.ics_deployer_div_style {
+	width:600px;
+	align:left;
+	vertical-align: middle;
+	border:solid 2px #333333;
+}
+
+.ics_report_div_style
+{
+	width:600px;
+	align:left;
+	vertical-align: middle;
+	border:none;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.ics_error_report_div_style
+{
+	border:solid 2px #FF796B;
+	background:#FFFFFF;
+	font-size: 12px;
+	width: 600px;
+	padding: 10px;
+}
+
+.ics_page_title
+{
+	font-family: Arial;
+	font-size:18px;
+	font-weight:bold;
+	color: #5780D8;
+}
+
+.body_default
+{
+	padding: 0px;
+	margin: 0px;
+}
+.mainTable_table
+{
+	border: none;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+.mainTable_companyTitle
+{
+	padding: 0px;
+	width: 100%;
+	height: 1px;
+	margin: 0px;
+}
+.header_left
+{
+	background: url(/sslvpn/Login/images/TopToolBar_Left.png);
+	background-repeat: repeat-x;	
+	vertical-align:middle;
+	height: 68px;
+}
+
+/* Not used anymore - CR00907346 */
+.header_middle
+{
+	background: url(/sslvpn/Login/images/TopToolBar_Left.png);
+	background-repeat: repeat-x;
+	width: 42px;
+	height: 68px;
+}
+
+.header_right
+{
+	background: url(/sslvpn/Login/images/TopToolBar_Middle.png);
+	background-repeat: repeat-x;
+	vertical-align: top;
+	height: 80px;
+}
+
+.header_menu
+{
+	background: url(/sslvpn/Login/images/TopToolBar_Right.png);
+	background-repeat: repeat-x;
+	width: 329px;
+	vertical-align: bottom;
+	height: 68px;
+	/* padding-bottom: 5px; */
+	/*border: solid 1px red;*/
+}
+
+.CPESOD_hr
+{
+	color: #bababa;
+}
+
+.CPESOD_sub_title
+{
+	font-family: Arial;
+	color: #51565E;
+	font-size: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.CPESOD_title_table
+{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.PortalLink
+{
+	color: #0144BD;
+ 	font-size: 11px;
+	font-weight: normal;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* YELLOW BAR CSS ----------------------------------------------------------- */
+	.yellowbarDiv
+	{
+		display: none;
+		position: absolute;
+		width: 500px;
+		height: 300px;
+		left:30%;
+		font-size: 1px;	
+	}
+	
+	.yellowbarTable
+	{
+		border: none;
+		width: 100%;
+		height: 100%;
+		font-size: 1px;		
+	}
+	
+	
+	.yellowbar_Numbering
+	{
+		font-family: Arial;
+		color: #363636;
+		font-size: 30px;
+		font-weight: bold;
+		vertical-align: middle;
+		text-align: left;
+		padding: 15px;
+	}
+	
+	.yellowbar_text
+	{
+		font-family: Arial;
+		color: #5A5A5A;
+		font-size: 12px;
+		font-weight: bold;
+		vertical-align: middle;
+		text-align: left;
+		padding: 15px;
+	}
+	
+	.yellowbar_link
+	{
+		font-family: Arial;
+		color: #0144BD;
+		font-size: 12px;
+		font-weight: normal;
+		vertical-align: middle;
+		text-align: left;
+		padding: 5px;
+		cursor: pointer;
+		background: #FFFFFF;
+	}
+	
+	.yellowbar_arrow
+	{
+		height: 13px;
+		font-size: 1px;	
+	}
+	
+	/* Top row ----------------------------------------------- */
+	.yellowbar_topLeftCorner
+	{
+		background: url(/sslvpn/Login/images/yellowbar_up_left_corner.gif);
+		background-repeat: no-repeat;
+		width: 13px;
+		height: 13px;
+		font-size: 1px;
+	}
+	
+	.yellowbar_topMidBorder
+	{
+		background: url(/sslvpn/Login/images/yellowbar_strip_up_line.gif);
+		background-repeat: repeat-x;
+		font-size: 1px;		
+	}
+	
+	.yellowbar_topRightCorner
+	{
+		background: url(/sslvpn/Login/images/yellowbar_up_right_corner.gif);
+		background-repeat: no-repeat;
+		width: 13px;
+		height: 13px;
+		font-size: 1px;
+	}
+
+	/* Body sides ----------------------------------------------- */
+	.yellowbar_midLeftBorder
+	{
+		background: url(/sslvpn/Login/images/yellowbar_strip_left_line.gif);
+		background-repeat: repeat-y;
+	}
+	
+	.yellowbar_body
+	{
+		background: #EDEDED;	
+		width: 100%;
+		height: 100%;
+	}
+	
+	.yellowbar_midRightBorder
+	{
+		background: url(/sslvpn/Login/images/yellowbar_strip_right_line.gif);
+		background-repeat: repeat-y;
+	}	
+	
+	
+	
+	
+	
+	/* Bottom row ----------------------------------------------- */
+	.yellowbar_bottomLeftCorner
+	{
+		background: url(/sslvpn/Login/images/yellowbar_down_left_corner.gif);
+		background-repeat: no-repeat;
+		width: 13px;
+		height: 13px;
+	}
+	
+	.yellowbar_bottomMidBorder
+	{
+		background: url(/sslvpn/Login/images/yellowbar_strip_down_line.gif);
+		background-repeat: repeat-x;	
+	}
+	
+	.yellowbar_bottomRightCorner
+	{
+		background: url(/sslvpn/Login/images/yellowbar_down_right_corner.gif);
+		background-repeat: no-repeat;
+		width: 13px;
+		height: 13px;
+	}
+
+	
+	/* Seperator row ----------------------------------------------- */
+	
+	.yellowbar_sepLeft
+	{
+		background: url(/sslvpn/Login/images/yellowbar_sep_left.gif);
+		background-repeat: no-repeat;
+		width: 13px;
+		height: 4px;
+		font-size: 1px;
+	}
+	
+	.yellowbar_sepMid
+	{
+		background: url(/sslvpn/Login/images/yellowbar_low_top_line.gif);
+		background-repeat: repeat-x;
+		font-size: 1px;	
+	}
+	
+	.yellowbar_sepRight
+	{
+		background: url(/sslvpn/Login/images/yellowbar_sep_right.gif);
+		background-repeat: no-repeat;
+		width: 13px;
+		font-size: 1px;
+	}
+	
+	.yellowbar_lowLeftBorder
+	{
+		background: url(/sslvpn/Login/images/yellowbar_low_left_line.gif);
+		background-repeat: repeat-y;
+	}
+	
+	.yellowbar_lowRightBorder
+	{
+		background: url(/sslvpn/Login/images/yellowbar_low_right_line.gif);
+		background-repeat: repeat-y;
+	}
